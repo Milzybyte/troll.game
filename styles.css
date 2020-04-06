@@ -1,0 +1,58 @@
+/* style sheet for troll game 
+	Miles C. Stover 01/08/2020
+*/
+
+
+body {
+	background-image: url(troll.mush.jpg);
+
+}
+
+h1 {
+	text-align: center;
+	color: green;
+	text-shadow: 10px -5px 20px yellow;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 6em;
+}
+
+div#button {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: red;
+	width: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px 30px;
+	color: white;
+	tansition: all 2S;
+}
+
+div#button:hover {
+	background-color: green;
+	color: red;
+	font-size: 2em;
+	width: 210px;
+}
+
+h2#death {
+	font-family: Acme;
+	color: white;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 300px;
+}
+
+h2#result {
+	font-family: Acme;
+	color: white;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 300px;
+}
